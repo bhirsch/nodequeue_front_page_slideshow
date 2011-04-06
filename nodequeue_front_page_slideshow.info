@@ -1,0 +1,5 @@
+name = Nodequeue: Front Page Slideshow
+description = Create/Delete Front Page Slideshow Nodequeue
+core = 6.x
+version = "6.x-1.0"
+project = "Stars with Stripes"
