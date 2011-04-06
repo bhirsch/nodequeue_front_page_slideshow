@@ -8,7 +8,7 @@ Nodequeues should really be installed and uninstalled by their parent modules.
 (Hopefully one day they will be exportable, which will make this process a lot 
 cleaner.) But these four queues don't clearly belong to any one module. To 
 start untangling them, the install profile will now create these queues
-by turning on these four simple modules, who's sole purpose is to create
+by turning on these four simple modules, whose sole purpose is to create
 and delete nodequeues on hook_install and hook_uninstall.
 
 - nodequeue_featured_posts
